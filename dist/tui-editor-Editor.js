@@ -19109,7 +19109,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * @type {string}
  * @ignore
  */
-var containerTmpl = ['<div class="tui-editor">', '<div class="te-md-container">', '<div class="te-editor" />', '<div class="te-md-splitter" />', '<div class="te-preview" />', '</div>', '<div class="te-ww-container">', '<div class="te-editor" />', '</div>', '</div>'].join('');
+var containerTmpl = ['<div class="tui-editor">', '<div class="te-md-container">', '<div class="te-editor">','</div>', '<div class="te-md-splitter">','</div>', '<div class="te-preview">','</div>', '</div>', '<div class="te-ww-container">', '<div class="te-editor">','</div>', '</div>', '</div>'].join('');
 
 /**
  * Class Layout
